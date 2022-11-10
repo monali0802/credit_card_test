@@ -15,12 +15,18 @@ Used 8000 port so url is http://localhost:8000
 There are two rest api:
 
 Get all detail of cards:
+
 url: http://localhost:8000/card/all
+
 method: GET
 
+
 Add credit card detail:
+
 url: http://localhost:8000/card/add_card
+
 method: POST
+
 body: {
     "name": "Monali",
     "limit": "50",
