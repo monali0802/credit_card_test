@@ -1,12 +1,16 @@
 Go to the project directory then run
+
 npm install
 
 Start server run
+
 npm index.js or nodemon index.js
 
 Change the database credentials in /config/db.js
 
+
 Used 8000 port so url is http://localhost:8000
+
 
 There are two rest api:
 
