@@ -54,7 +54,11 @@ module.exports = {
                   code: 500
               });
             };
-            res.status(200).json(rows);
+            if(rows && rows.length > 0) {
+                res.status(200).json(rows);
+            } else {
+                res.status(200).json({"message": "No records available"});
+            }
         });
     }
 }
